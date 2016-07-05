@@ -20,7 +20,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2UW-yN-tU1">
                                 <rect key="frame" x="268" y="253" width="64" height="94"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="A♣︎" backgroundImage="blank card rounded corner">
+                                <state key="normal" title="A♣︎" backgroundImage="cardfront">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <variation key="heightClass=compact" fixedFrame="YES">
@@ -44,6 +44,9 @@
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="368" y="353" width="64" height="94"/>
                                 </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tS7-pJ-q4C"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -55,6 +58,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="blank card rounded corner" width="64" height="96"/>
+        <image name="cardfront" width="64" height="96"/>
     </resources>
 </document>
