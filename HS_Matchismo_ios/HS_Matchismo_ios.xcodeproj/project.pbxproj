@@ -76,14 +76,11 @@
 			isa = PBXGroup;
 			children = (
 				261213561D2B74C5000DC344 /* Model */,
-				A1CC31D51D2388CB00E3D71E /* AppDelegate.h */,
-				A1CC31D61D2388CB00E3D71E /* AppDelegate.m */,
 				A1CC31D81D2388CB00E3D71E /* ViewController.h */,
 				A1CC31D91D2388CB00E3D71E /* ViewController.m */,
 				A1CC31DB1D2388CB00E3D71E /* Main.storyboard */,
 				A1CC31DE1D2388CB00E3D71E /* Assets.xcassets */,
 				A1CC31E01D2388CB00E3D71E /* LaunchScreen.storyboard */,
-				A1CC31E31D2388CB00E3D71E /* Info.plist */,
 				A1CC31D21D2388CB00E3D71E /* Supporting Files */,
 			);
 			path = HS_Matchismo_ios;
@@ -92,6 +89,9 @@
 		A1CC31D21D2388CB00E3D71E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1CC31E31D2388CB00E3D71E /* Info.plist */,
+				A1CC31D51D2388CB00E3D71E /* AppDelegate.h */,
+				A1CC31D61D2388CB00E3D71E /* AppDelegate.m */,
 				A1CC31D31D2388CB00E3D71E /* main.m */,
 			);
 			name = "Supporting Files";
